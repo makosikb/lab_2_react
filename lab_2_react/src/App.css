@@ -1,0 +1,52 @@
+.resume-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 40px;
+  border: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background: white;
+}
+
+header {
+  border-bottom: 2px solid #5d5c9d;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+header h1 {
+  color: #5d5c9d;
+  font-size: 42px;
+  margin: 0;
+}
+
+.resume-body {
+  display: flex; /* Створюємо дві колонки */
+  gap: 40px;
+}
+
+.left-column {
+  flex: 1;
+  border-right: 1px solid #5d5c9d;
+  padding-right: 20px;
+}
+
+.right-column {
+  flex: 2;
+}
+
+h3 {
+  color: #5d5c9d;
+  text-transform: uppercase;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 5px;
+  margin-top: 25px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
