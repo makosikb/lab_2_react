@@ -10,11 +10,12 @@ body {
 
 /* Стилізація header */
 header {
-    background: linear-gradient(135deg, #2c3e50, #1a4d8c);
+    background: linear-gradient(135deg, #1a1a4e, #2c3e50, #1a4d8c);
     color: white;
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 2.5rem 1rem;
     border-bottom: 4px solid #e67e22;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
 header h1 {
